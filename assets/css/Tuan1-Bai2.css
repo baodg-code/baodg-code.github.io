@@ -1,0 +1,177 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    line-height: 15px;
+    
+}
+body{
+    
+    background-color: #d9eaf6;
+    justify-items: center;
+}
+
+.cover{
+    background-color: white;
+    padding-top: 15px;
+    padding-left:20px;
+    padding-bottom:20px;
+    padding-right:26px;
+    justify-items: center;
+}
+
+.container{
+    width:316px;
+    background-color: #e6f3fb;
+    justify-items: center;
+    padding-top: 4.5px;
+    padding-left: 9px;
+    
+    
+}
+.first-title{
+    font-family: 'Times New Roman';
+    font-size:16px;
+    line-height: 15px;
+    display:inline;
+    margin-left: 5px;
+}
+.title{
+    font-family: 'Times New Roman';
+    font-size:16px;
+    line-height: 15px;
+    display:inline;
+}
+
+.content{
+    border-top: #f7a418 5px solid;
+    width: 296.5px;
+    
+}
+
+.blogroll-header{
+    display: flex;
+    box-sizing:border-box;
+    background-color: white;
+    
+}
+
+.blogroll-header-image{
+    margin-right:7px;
+    padding-left:7px;
+    padding-top:7px;
+    padding-bottom:13px;
+}
+.blogroll-header-text{
+    display:block;
+    font-family: 'Arial', sans-serif;
+    font-size: 12px;
+    padding-right:13px;
+    padding-top:7px;
+}
+.blogroll-header-text-title{
+    color: #0a6395 ;
+    font-weight: bold;
+}
+
+.comment{
+    background-color: #f9f1c2;
+    font-size:12px;
+    font-family:'Arial', sans-serif;
+    color:#0a6395;
+}
+.first-comment{
+    padding-top:6px;
+    padding-bottom:10px;
+    padding-left:8px;
+    border-bottom:white 1px solid;
+}
+.second-comment{
+    padding-top:11.5px;
+    padding-bottom:9px;
+    padding-left:8px;
+    border-bottom:white 1px solid;
+}
+.third-comment{
+    padding-top:11.5px;
+    padding-bottom:13px;
+    padding-left:8px;
+    border-bottom:white 1px solid;
+}
+.horoscopes-content{
+    display: flex;
+    box-sizing:border-box;
+    background-color: white;
+    gap: 10px
+}
+
+.horoscopes-content-img{
+
+    margin-bottom:33px;
+    padding-left:13px;
+    margin-right:11px;
+    object-fit:contain;
+}
+
+
+.horoscopes-content-text{
+    font-family: 'Arial', sans-serif;
+    margin-top:22px;
+    margin-bottom:9px
+}
+.horoscopes-footer{
+    font-size:11px;
+    font-family: 'Arial', sans-serif;
+    background-image: url("/images/Tuan1-Bai2/img-horoscopes-2.png");
+    padding-left:22px;
+    padding-top:10px;
+    padding-bottom:7px;
+    margin-bottom:20px
+}
+
+.news-content{
+    display: flex;
+    box-sizing:border-box;
+    background-color: white;
+    gap: 10px;
+    margin-bottom: 5px;
+}
+
+.news-content-text{
+    font-family:'Times New Roman', Times, serif;
+    font-size:12px;
+    margin-top:22px;
+    margin-left:23px;
+    margin-right:15px
+}
+
+.news-mobiles{
+    font-family:'Times New Roman', Times, serif;
+    font-size:12px;
+    color:#0a6395;
+    padding-top:5px
+}
+.last-title{
+    padding-top:4px;
+    width:297px;
+    border-color:#595959;
+    border-top-style:solid;
+    border-width:1px;
+    display:flex;
+    box-sizing: border-box;
+}
+.competions-content{
+    background-color:white;
+    width:298px;
+    border: #595959 1px solid;
+    margin-bottom:22px
+}
+
+.competions-content-text{
+    font-family: 'Times New Roman', Times, serif;
+    color:#4d5d73;
+    font-size:12px;
+    padding-top:10px;
+    padding-bottom:6px;
+    padding-left:8px
+}
