@@ -26,6 +26,7 @@ body{
     justify-items: center;
     padding-top: 4.5px;
     padding-left: 9px;
+    padding-bottom:17px;
     
     
 }
@@ -122,7 +123,7 @@ body{
 .horoscopes-footer{
     font-size:11px;
     font-family: 'Arial', sans-serif;
-    background-image: url("/images/Tuan1-Bai2/img-horoscopes-2.png");
+    background-image: url("/images/img-horoscopes-2.png");
     padding-left:22px;
     padding-top:10px;
     padding-bottom:7px;
@@ -164,7 +165,6 @@ body{
     background-color:white;
     width:298px;
     border: #595959 1px solid;
-    margin-bottom:22px
 }
 
 .competions-content-text{
