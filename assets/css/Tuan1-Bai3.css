@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Times New Roman";
+  color: #000000;
+
+}
+
+.container {
+  margin: 8px auto;
+  width: 499px;
+  border: 1px solid #dfdfdf;
+  padding-top: 8px;
+  
+}
+
+.profile-header {
+  position: relative;
+}
+.profile-header-bg {
+  position: absolute;
+  padding-top: 4px;
+}
+
+.title {
+  font-size: 17px;
+  line-height: 10px;
+}
+.title-left{
+    padding-left:1px
+  }
+.title-center{
+    text-align: center;
+    padding-left:5px;
+  }  
+.profile{
+  margin-bottom: 25px;
+}
+.profile-content{
+    padding-left:12px;
+    display:flex;
+    padding-top:4px
+}
+.profile-avt{
+    padding-top: 6px;
+    padding-left: 1px;
+}
+.profile-content-detail{
+    position: relative;
+}
+.detail-text{
+    padding-left: 13px;
+    padding-top: 7px;
+}
+.content-bg {
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+.nor-text{
+    font-size: 15px;
+    line-height: 16px;
+}
+.author-text{
+    font-size: 13px;
+    line-height: 16px;
+}
+
+.author-text a{
+    text-decoration: none;
+    color: #1424f4;
+}
+.facts{
+    padding-left:2px;
+    margin-bottom:62px;
+}
+
+.facts-content-detail{
+  margin-top:23px;
+  position: relative;
+  padding-left: 35px;
+}
+.facts-content-detail p {
+  list-style: none;
+  padding-left: 56px;
+  padding-bottom:7px;
+}
+.facts-content-detail span {
+  display: inline-block;
+  text-indent: -24px;
+}
+.facts-content-text{
+  position:absolute;
+  top:1px;
+  left:0;
+  width:430px;
+}
+.comment{
+  margin-bottom:32px;
+}
+.commment-post{
+  margin-top:5px;
+}
+.comment-box{
+  background-image: url("/images/Tuan1-Bai3/bg-cmt.png");
+  padding-left:19px;
+    max-height: 55px;
+    margin-bottom: 4px;
+}
+
+.comment-text{
+  font-size: 15px;
+  line-height: 16px;
+  padding-top:5px
+}
+
+.comment-author{
+  padding-top: 5px;
+  padding-left:33px;
+  margin-bottom:5px
+}
+
+.element-detail{
+  position: absolute;
+  width: 110px;
+  padding-left: 6px;
+  padding-top: 3px;
+}
+.element-detail p{
+  padding-bottom: 5px;
+}
+
+.comment-input{
+  padding-left: 39px;
+  margin-top: 4px;
+  position: relative;
+}
+.comment-placeholder{
+  position:absolute;
+  top: 66px;
+  padding-left: 77px;
+}
