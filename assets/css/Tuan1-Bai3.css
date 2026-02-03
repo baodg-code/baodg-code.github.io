@@ -28,7 +28,7 @@
   line-height: 10px;
 }
 .title-left{
-    padding-left:1px
+    padding-left:2px
   }
 .title-center{
     text-align: center;
@@ -38,20 +38,17 @@
   margin-bottom: 25px;
 }
 .profile-content{
-    padding-left:12px;
     display:flex;
-    padding-top:4px
+    padding:4px 0 0 12px;
 }
 .profile-avt{
-    padding-top: 6px;
-    padding-left: 1px;
+    padding: 6px 0 0 1px;
 }
 .profile-content-detail{
     position: relative;
 }
 .detail-text{
-    padding-left: 13px;
-    padding-top: 7px;
+    padding: 7px 0 0 13px;
 }
 .content-bg {
   position: absolute;
@@ -75,16 +72,16 @@
     padding-left:2px;
     margin-bottom:62px;
 }
-
+.facts-content-{
+  padding-top:23px;
+}
 .facts-content-detail{
-  margin-top:23px;
   position: relative;
-  padding-left: 35px;
+  padding-left: 36px;
 }
 .facts-content-detail p {
   list-style: none;
-  padding-left: 56px;
-  padding-bottom:7px;
+  padding: 0 0 7px 56px;
 }
 .facts-content-detail span {
   display: inline-block;
@@ -116,16 +113,14 @@
 }
 
 .comment-author{
-  padding-top: 5px;
-  padding-left:33px;
+  padding: 5px 0 0 33px;
   margin-bottom:5px
 }
 
 .element-detail{
   position: absolute;
   width: 110px;
-  padding-left: 6px;
-  padding-top: 3px;
+  padding: 3px 0 0 6px;
 }
 .element-detail p{
   padding-bottom: 5px;
