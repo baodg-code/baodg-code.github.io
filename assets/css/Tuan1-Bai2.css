@@ -1,172 +1,146 @@
 *{
-    margin:0;
     padding:0;
+    margin:0;
     box-sizing: border-box;
-    line-height: 15px;
-    
 }
+
 body{
-    
-    background-color: #d9eaf6;
-    justify-items: center;
+    background-color:blanchedalmond;
 }
-
-.cover{
-    background-color: white;
-    padding: 15px 26px 20px 20px; 
-    justify-items: center;
-}
-
 .container{
-    width:316px;
-    background-color: #e6f3fb;
-    justify-items: center;
-    padding: 4.5px 0 17px 9px;
-    
-    
+    background-color:white;
+    width:363px;
+    margin:20px auto;
+    padding: 16px 25px 25px 22px;
 }
-.first-title{
-    font-family: 'Times New Roman';
-    font-size:16px;
-    display:inline;
-    margin-left: 5px;
+.inner{
+    background-color:#e6f3fb;
+    padding: 2px 7px 17px 12px;
 }
-.title{
-    font-family: 'Times New Roman';
-    font-size:16px;
-    display:inline;
-}
-
-.content{
-    border-top: #f7a418 5px solid;
-    width: 296.5px;
-    
-}
-
-.blogroll-header{
-    display: flex;
-    box-sizing:border-box;
-    background-color: white;
-    
-}
-
-.blogroll-header-image{
-    margin: 7px 9px 13px 7px;
-}
-.blogroll-header-text{
-    display:block;
-    font-family: 'Arial', sans-serif;
-    font-size: 12px;
-    padding: 7px 13px 0 0;
-}
-.blogroll-header-text-title{
-    color: #0a6395 ;
-    font-weight: bold;
-    text-indent: -3px;
-}
-
-.comment{
-    background-color: #f9f1c2;
-    font-size:12px;
-    font-family:'Arial', sans-serif;
+.links{
     color:#0a6395;
-    margin-bottom: 1px;
-}
-.comment ul{
-    list-style: none;
-}
-.first-comment{
-    padding: 6px 0 10px 8px;
-    border-bottom:white 1px solid;
-}
-.second-comment{
-    padding: 11.5px 0 9px 8px;
-    border-bottom:white 1px solid;
-}
-.third-comment{
-    padding:11.5px 0 11px 8px;
-    border-bottom:white 1px solid;
-}
-.horoscopes-content{
-    display: flex;
-    box-sizing:border-box;
-    background-color: white;
-    gap: 10px
-}
-
-.horoscopes-content-img{
-    padding: 0 10px 33px 13px;
-    object-fit:contain;
-}
-
-
-.horoscopes-content-text{
-    font-family: 'Arial', sans-serif;
-    margin: 22px 0 9px 0;
-}
-.text-title{
-    font-size:15px;
-    font-weight: bold;
-}
-.text-date{
-    font-size:11px;
-    color:#595959 ;
-    padding-bottom:7px
-}
-.text-detail{
-    font-size:11px;
-    margin-right:5px;
-    margin-left:2px
-}
-.horoscopes-footer{
-    font-size:11px;
-    font-family: 'Arial', sans-serif;
-    background-image: url("/images/Tuan1-Bai2/img-horoscopes-2.png");
-    padding: 10px 0 7px 22px;
-    margin-bottom:19px
-}
-
-.news-content{
-    display: flex;
-    box-sizing:border-box;
-    background-color: white;
-    gap: 10px;
-    margin-bottom: 6px;
-}
-
-.news-content-text{
-    font-family:'Times New Roman', Times, serif;
-    font-size:12px;
-    margin:22px 15px 0 22px;
     
 }
-
-.news-mobile{
-    padding-top:5px;
+.links-nondecorate{
+    color:#0a6395;
+    text-decoration: none;
 }
-.last-title{
-    padding-top:3px;
-    width:297px;
-    border-top:#595959 solid 1px;
+.blog-title{
+    font-family:'Times New Roman';
+    font-size:16px;
+    color:#000000;
+}
+.blog-title-competions{
+    font-family:'Times New Roman';
+    font-size:16px;
+    color:#000000;
+    margin: 2px 0 -1px 0;
     text-indent: -2px;
 }
-.competions-content{
+.blog-content{
     background-color:white;
-    width:298px;
-    border: #595959 1px solid;
+    border-top: #f7a418 4px solid;
 }
-
-.competions-content-text{
-    font-family: 'Times New Roman', Times, serif;
-    color:#4d5d73;
-    font-size:12px; 
-    padding: 10px 0 6px 8px;
+.content-detail{
+    display:flex;
+    margin-bottom:9px;
+    padding:7px 18px 0 8px;
+    font-size:12px;
+    font-family: "Arial";
+    gap:9px;
+    
 }
-.competions-content-text ul{
-    list-style: none;
+.content-detail-disc{
+    margin-top:1px;
 }
-
-.link-text a{
-    text-decoration: none;
+.disc-title{
     color:#0a6395;
+    font-size:12px;
+    text-indent:-3px;
+}
+.msg-list{
+    list-style:none;
+    background-color:#f9f1c2;
+    color:#0a6395;
+    font-family: "Arial";
+    font-size:12px;
+}
+.first-msg{
+    padding:7px 0px 11px 8px;
+    border-bottom: white solid 1px;
+}
+.second-msg{
+    padding:11px 0px 10px 8px;
+    border-bottom: white solid 1px;
+}.last-msg{
+    padding:11px 0px 12px 8px;
+    border-bottom: white solid 1px;
+}
+.blog-horoscopes{
+    margin-bottom:17px;
+}
+.horo-content{
+    display:flex;
+    margin-bottom:14px;
+    padding:20px 2px 0 14px;
+    gap:20px
+}
+
+.horo-content-text{
+    font-family: "Arial";
+    font-size:11px;
+    text-decoration: none;
+}
+.horo-title {
+    font-size:15px
+}
+.horo-time{
+    color:#595959;
+    
+}
+.horo-detail-text{
+    margin-top: 11px;
+    padding-left: 2px;
+    line-height: 14px;
+}
+
+.horo-footer{
+    font-family: "Arial";
+    font-size:11px;
+    background-image: url(/images/Tuan1-Bai2/img-horoscopes-2.png);
+    padding:11px 0px 8px 22px;
+    line-height:14px
+}
+.blog-news{
+    margin-bottom:8px;
+}
+.news-content{
+    display:flex;
+    
+}
+.news-content-text{
+    font-family:"Times New Roman";
+    font-size:12px;
+    padding: 22px 21px 0 23px;
+    
+}
+.news-detail-text{
+    margin-bottom:5px;
+}
+.news-content-img{
+    height:113px;
+}
+.blog-competions{
+    border-top:#595959 solid 1px;
+}
+.blog-competions-content{
+    border:#595959 solid 1px;
+    list-style:none;
+    font-size: 12px;
+    font-family:"Times New Roman";
+    color:#4d5d73;
+    padding:10px 0 8px 8px;
+    background-color:white;
+    margin: 0 -2px 0px 1px;
+    padding-bottom: 6px;
 }
