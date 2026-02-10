@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Arial", sans-serif;
+  background: #f6f6f2;
+  color: #1a1a1a;
+}
+
+.page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  padding: 24px;
+}
+
+.title {
+  margin: 0 0 16px;
+  font-size: 20px;
+  letter-spacing: 0.5px;
+}
+
+.chart-wrap {
+  background: #ffffff;
+  padding: 12px 16px 8px;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
